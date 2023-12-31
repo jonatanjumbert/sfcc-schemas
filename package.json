@@ -1,23 +1,26 @@
 {
-  "name": "sfcc-schemas",
-  "version": "1.5.0",
+  "name": "sfcc-schemas-latest",
+  "version": "1.6.0",
   "description": "Salesforce Commerce Cloud import and export schemas validator",
   "keywords": [
     "Salesforce Commerce Cloud",
-    "Demandware"
+    "Demandware",
+    "SFCC",
+    "Salesforce B2C Commerce",
+    "SFCC XML validator"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/openmindlab/sfcc-schemas.git"
-  },
-  "bugs": {
-    "url": "https://github.com/openmindlab/sfcc-schemas/issues"
+    "url": "https://github.com/jonatanjumbert/sfcc-schemas.git"
   },
   "main": "sfcc-schemas.js",
   "license": "MIT",
   "author": {
     "name": "Fabrizio Giustina"
   },
+  "contributors": [
+    "Jonatan Jumbert"
+  ],
   "engines": {
     "node": ">=16.0.0"
   },
