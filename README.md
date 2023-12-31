@@ -9,6 +9,7 @@ This updated version of the Salesforce Commerce Cloud schemas validator (`sfcc-s
 - Validate Salesforce Commerce Cloud import/export XML files.
 - Automatically add local XSD declarations to XML files for leveraging IDE autocomplete and validation capabilities.
 - Updated XSDs for compatibility with Salesforce Commerce Cloud version 23.10.
+- Possibility to change the `sites` directory, where your XML files are located, using the __--path__ attribute.
 
 ## Installation
 
@@ -31,7 +32,7 @@ Validates all the xml files in the `sites` subdirectory (following the usual car
 ```bash
 sfcc-schemas-validate --path site-import
 ```
-Validate all xml files within the `site-import`` subdirectory or the one you specify as __--path__.
+Validate all xml files within the `site-import` subdirectory or the one you specify as __--path__.
 
 ```bash
 sfcc-schemas-xsdify
