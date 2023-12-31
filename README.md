@@ -1,8 +1,8 @@
-# sfcc-schemas-lastest
+# sfcc-schemas-latest
 
 > Salesforce Commerce Cloud import and export schemas validator - Updated version by Jonatan Jumbert, forked from [openmindlab/sfcc-schemas](https://github.com/openmindlab/sfcc-schemas)
 
-This updated version of the Salesforce Commerce Cloud schemas validator (`sfcc-schemas-lastest`) includes the latest XSD files for version 23.10 of Salesforce Commerce Cloud. It ensures the validator remains functional and up-to-date with the latest Salesforce Commerce Cloud versions. Enhanced descriptions have been added for improved searchability and optimization on GitHub.
+This updated version of the Salesforce Commerce Cloud schemas validator (`sfcc-schemas-latest`) includes the latest XSD files for version 23.10 of Salesforce Commerce Cloud. It ensures the validator remains functional and up-to-date with the latest Salesforce Commerce Cloud versions. Enhanced descriptions have been added for improved searchability and optimization on GitHub.
 
 ## Features
 
@@ -13,7 +13,7 @@ This updated version of the Salesforce Commerce Cloud schemas validator (`sfcc-s
 ## Installation
 
 ```bash
-$ npm i -g sfcc-schemas-lastest
+$ npm i -g sfcc-schemas-latest
 ```
 Warning: the module makes use of [xsd-schema-validator](https://www.npmjs.com/package/xsd-schema-validator) which requires java.
 See the prerequisites section on https://www.npmjs.com/package/xsd-schema-validator for details.
