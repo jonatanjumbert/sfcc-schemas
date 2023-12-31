@@ -1,6 +1,6 @@
 {
   "name": "sfcc-schemas-latest",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Salesforce Commerce Cloud import and export schemas validator",
   "keywords": [
     "Salesforce Commerce Cloud",

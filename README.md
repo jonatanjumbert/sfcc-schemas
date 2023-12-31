@@ -29,6 +29,11 @@ sfcc-schemas-validate
 Validates all the xml files in the `sites` subdirectory (following the usual cartridge folder conventions)
 
 ```bash
+sfcc-schemas-validate --path site-import
+```
+Validate all xml files within the `site-import`` subdirectory or the one you specify as __--path__.
+
+```bash
 sfcc-schemas-xsdify
 ```
 Adds a schemaLocation attribute to all the xml files, in order to leverage editor support (validation or autocompletion) ini your IDE.
