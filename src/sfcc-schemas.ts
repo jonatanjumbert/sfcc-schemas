@@ -22,8 +22,8 @@ let options = {
   timeout: 5000
 }
 
-async function xsdfy() {
-  let files = await findXmlFiles();
+async function xsdfy(xmlsPath) {
+  let files = await findXmlFiles(xmlsPath);
   let xsdmap = buildXsdMapping();
   for (let j = 0; j < files.length; j++) {
     let xml = files[j];
@@ -49,8 +49,8 @@ async function xsdfy() {
   }
 }
 
-async function validate(failsonerror) {
-  let files = await findXmlFiles();
+async function validate(failsonerror, xmlsPath) {
+  let files = await findXmlFiles(xmlsPath);
   let xsdmap = buildXsdMapping();
 
   let results = [];
@@ -155,8 +155,8 @@ async function validate(failsonerror) {
   }
 }
 
-async function findXmlFiles() {
-  return glob(`${path.join(process.cwd(), 'sites')}/**/*.xml`);
+async function findXmlFiles(xmlsPath) {
+  return glob(`${path.join(process.cwd(), xmlsPath)}/**/*.xml`);
 }
 
 function buildXsdMapping() {
