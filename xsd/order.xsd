@@ -42,6 +42,7 @@
             <xsd:enumeration value="21.9" />
             <xsd:enumeration value="22.1" />
             <xsd:enumeration value="22.9" />
+            <xsd:enumeration value="23.4" />
         </xsd:restriction>
     </xsd:simpleType>
 
@@ -102,6 +103,15 @@
             <xsd:element name="shipments" type="complexType.Shipments" maxOccurs="1" minOccurs="0">
                 <xsd:annotation>
                     <xsd:documentation>Shipments of the order.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="tax-rounded-at-group" type="xsd:boolean" minOccurs="0" maxOccurs="1">
+                <xsd:annotation>
+                    <xsd:documentation>
+                        Since version 23.4
+                        True if this order was calculated with grouped taxation.
+                        Not exported unless true.
+                    </xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
             <xsd:element name="totals" type="complexType.OrderTotals" maxOccurs="1" minOccurs="0">
@@ -1182,6 +1192,11 @@
             <xsd:enumeration value="OnlineReservation" />
             <xsd:enumeration value="CustomerServiceCenter" />
             <xsd:enumeration value="InstagramCommerce" />
+            <xsd:enumeration value="Google" />
+            <xsd:enumeration value="TikTok" />
+            <xsd:enumeration value="Snapchat" />
+            <xsd:enumeration value="WhatsApp" />
+            <xsd:enumeration value="YouTube" />
         </xsd:restriction>
     </xsd:simpleType>
 

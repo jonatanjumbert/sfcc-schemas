@@ -56,7 +56,7 @@
 
     <xsd:complexType name="complexType.CachePartitionPipelines">
         <xsd:sequence>
-            <xsd:element name="pipeline" type="Generic.NonEmptyString.256" minOccurs="0" maxOccurs="10"/>
+            <xsd:element name="pipeline" type="Generic.NonEmptyString.256" minOccurs="0" maxOccurs="20"/>
         </xsd:sequence>
     </xsd:complexType>
 
