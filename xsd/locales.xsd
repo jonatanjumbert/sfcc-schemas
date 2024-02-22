@@ -70,6 +70,7 @@
             <xsd:element name="input-quantity-positive-pattern" type="loc:simpleType.Generic.RegionalSettingPattern" minOccurs="0" maxOccurs="1" />
             <xsd:element name="date-symbol-am-string" type="loc:simpleType.Generic.RegionalSettingPattern" minOccurs="0" maxOccurs="1"/>
             <xsd:element name="date-symbol-pm-string" type="loc:simpleType.Generic.RegionalSettingPattern" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="date-symbol-first-day-of-week" type="loc:simpleType.Generic.RegionalSettingPattern" minOccurs="0" maxOccurs="1"/>
             <xsd:element name="date-symbol-calendar-type" type="loc:simpleType.Generic.RegionalSettingPattern" minOccurs="0" maxOccurs="1"/>
             <xsd:element name="date-symbol-eras-bce" type="loc:simpleType.Generic.RegionalSettingPattern" minOccurs="0" maxOccurs="1"/>
             <xsd:element name="date-symbol-eras-ce" type="loc:simpleType.Generic.RegionalSettingPattern" minOccurs="0" maxOccurs="1"/>
